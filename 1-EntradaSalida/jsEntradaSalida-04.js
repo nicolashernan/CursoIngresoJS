@@ -4,6 +4,8 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	let nombreIngresado;
+	nombreIngresado = prompt("ingrese su nombre ", "natalia natalia");
+	document.getElementById('txtIdNombre').value= "su nombre es " + nombreIngresado;
 }
 
