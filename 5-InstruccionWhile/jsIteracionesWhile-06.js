@@ -1,13 +1,31 @@
+//Pereyra hernan nicolas Ej:6 while
+
 function mostrar()
 {
-	var contador;
-	var acumulador;
-	var numeroIngresado;
+	let contador;
+	let acumulador;
+	let numeroIngresado;
+	let suma;
+	let promedio;
 
-	contador=0;
-	acumulador=0;
+	numeroIngresado = prompt("ingrese 5 numeros");
+	numeroIngresado = parseInt(numeroIngresado);
+
+	contador = 0;
+	acumulador = 0;
+
+	while(contador<4)
+	{
+		contador++;
+		numeroIngresado = prompt("ingrese otro numero");
+		numeroIngresado = parseInt(numeroIngresado);
+		acumulador = acumulador + numeroIngresado; 
+	}
+
+	suma = acumulador + numeroIngresado;
+	promedio = suma/5;
+
+	document.getElementById("txtIdSuma").value = suma;
+	document.getElementById("txtIdPromedio").value = promedio;
 	
-	
-	txtIdSuma.value=acumulador;
-	txtIdPromedio.value=acumulador/5;
 }//FIN DE LA FUNCIÓN
