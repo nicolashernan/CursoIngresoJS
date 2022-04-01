@@ -12,7 +12,16 @@ var contadorIntentos;
 
 function comenzar()
 {
-	//Genero el número RANDOM entre 1 y 100
+	let numeroIngresado;
+	let comenzar;
+	let onClick:
+
+	numeroIngresado = document.getElementById("xtIdNumero").value;
+	numeroIngresado = parseInt(numeroIngresado);
+
+	onclick="comenzar(Math.floor(Math.random() * 101))";
+
+	
 	 
 		//alert(numeroSecreto );
 	
@@ -21,6 +30,6 @@ function comenzar()
 
 function verificar()
 {
-	
+
 	
 }
