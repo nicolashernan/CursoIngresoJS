@@ -1,7 +1,18 @@
+//pereyra hernan nicolas
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edadIngresada;
 
+	edadIngresada=document.getElementById("txtIdEdad").value;
+	edadIngresada=parseInt(edadIngresada);
 
-}//FIN DE LA FUNCIÓN
+	if (edadIngresada > 12)
+	{
+		if (edadIngresada < 18)
+		{
+			alert("Usted es adolescente");
+		}
+
+	}
+		
+}

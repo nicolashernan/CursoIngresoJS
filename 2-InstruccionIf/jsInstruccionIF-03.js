@@ -1,6 +1,19 @@
+//pereyra hernan
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edadIngresada;
 
-}//FIN DE LA FUNCIÓN
+	edadIngresada=document.getElementById("txtIdEdad").value;
+	edadIngresada=parseInt(edadIngresada);
+
+	if (edadIngresada > 17)
+	{
+		alert("es mayor de edad ");
+	}
+
+	if (edadIngresada <= 17)
+	{
+		alert("es menor de edad ");
+	}
+
+}
